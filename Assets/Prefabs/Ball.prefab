@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8683485161281025607}
   - component: {fileID: 8683485161281025606}
-  - component: {fileID: 8542214392320658995}
+  - component: {fileID: 8634688045157740959}
   - component: {fileID: 8683485161281025605}
   - component: {fileID: 8683485161281025604}
   m_Layer: 0
@@ -30,7 +30,6 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.86791086, z: -0, w: -0.49672}
   m_LocalPosition: {x: -7.79, y: 3.15, z: 14.17}
   m_LocalScale: {x: 0.58458, y: 0.58458, z: 0.58458}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,7 +42,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8683485161281025603}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &8542214392320658995
+--- !u!114 &8634688045157740959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,17 +51,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8683485161281025603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cb70e92425a043af88254f7f5ecc7e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ecb659a3a5bc4a9c98118d64afb0e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sunrise: {fileID: 0}
-  sunset: {fileID: 0}
-  journeyTime: 5
-  canStart: 0
-  landed: 0
-  ballLanded:
-    m_PersistentCalls:
-      m_Calls: []
+  startMarker: {fileID: 0}
+  endMarker: {fileID: 0}
+  ball: {fileID: 8683485161281025603}
+  speed: 1
 --- !u!23 &8683485161281025605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -74,7 +69,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

@@ -24,9 +24,6 @@ public class MoveBall : MonoBehaviour
 
     void Start()
     {
-        startMarker = ball.transform;
-        endMarker.position = new Vector3(0, 0.29f, transform.position.x);
-
         // Keep a note of the time the movement started.
         startTime = Time.time;
 

@@ -72,11 +72,13 @@ public class GameController : MonoBehaviour
     //Moves the ball and sets the randomized time of the journey
     private void randomTrial()
     {
-        ball.GetComponent<MoveBallArc>().sunrise = startingPoint.transform;
-        ball.GetComponent<MoveBallArc>().sunset = endingPoint.transform;
-        travelTime = UnityEngine.Random.Range(0.5f, 5.0f);
-        ball.GetComponent<MoveBallArc>().journeyTime = travelTime;
-        ball.GetComponent<MoveBallArc>().canStart = true;
+        //ball.GetComponent<MoveBallArc>().sunrise = startingPoint.transform;
+        //ball.GetComponent<MoveBallArc>().sunset = endingPoint.transform;
+        ball.GetComponent<MoveBall>().startMarker = startingPoint.transform;
+        ball.GetComponent<MoveBall>().endMarker = endingPoint.transform;
+        //travelTime = UnityEngine.Random.Range(0.5f, 5.0f);
+        //ball.GetComponent<MoveBallArc>().journeyTime = travelTime;
+        //ball.GetComponent<MoveBallArc>().canStart = true;
         ballInstance = (GameObject)Instantiate(ball, startingPoint.transform.position, ball.transform.rotation);
     }
 
