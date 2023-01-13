@@ -22,6 +22,8 @@ public class MoveBall : MonoBehaviour
     // Total distance between the markers.
     private float journeyLength;
 
+    public bool canStart = false;
+
     void Start()
     {
         // Keep a note of the time the movement started.
@@ -34,13 +36,23 @@ public class MoveBall : MonoBehaviour
     // Move to the target end position.
     void Update()
     {
-        // Distance moved equals elapsed time times speed..
-        float distCovered = (Time.time - startTime) * speed;
+        if(canStart)
+        {
+            // Distance moved equals elapsed time times speed..
+            float distCovered = (Time.time - startTime) * speed;
 
-        // Fraction of journey completed equals current distance divided by total distance.
-        float fractionOfJourney = distCovered / journeyLength;
+            // Fraction of journey completed equals current distance divided by total distance.
+            float fractionOfJourney = distCovered / journeyLength;
 
-        // Set our position as a fraction of the distance between the markers.
-        ball.transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fractionOfJourney);
+            // Set our position as a fraction of the distance between the markers.
+            ball.transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fractionOfJourney);
+
+            if(fractionOfJourney > 1)
+            {
+                canStart = false;
+                GameObject.Find("Camera").GetComponent<GameController>().changeScreenEvent();
+            }
+        }
+        
     }
 }

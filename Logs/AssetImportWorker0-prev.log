@@ -18,106 +18,106 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/nateseibold/Downloads/PointingExperiment-main-2
+/Users/nateseibold/CompletePointedExperiment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49495
-Successfully changed project path to: /Users/nateseibold/Downloads/PointingExperiment-main-2
-/Users/nateseibold/Downloads/PointingExperiment-main-2
+59763
+Successfully changed project path to: /Users/nateseibold/CompletePointedExperiment
+/Users/nateseibold/CompletePointedExperiment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 106.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.42f1 (7ade1201f527)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets
+[Subsystems] Discovering subsystems at path /Users/nateseibold/CompletePointedExperiment/Assets
 GfxDevice: creating device client; threaded=0
-2022-12-26 19:13:19.940 Unity[8444:33152222] (null) preferred device: Apple M1 Pro (high power)
-2022-12-26 19:13:19.940 Unity[8444:33152222] Metal devices available: 1
-2022-12-26 19:13:19.940 Unity[8444:33152222] 0: Apple M1 Pro (high power)
-2022-12-26 19:13:19.940 Unity[8444:33152222] Using device Apple M1 Pro (high power)
+2023-01-12 15:34:45.504 Unity[54324:38710225] (null) preferred device: Apple M1 Pro (high power)
+2023-01-12 15:34:45.504 Unity[54324:38710225] Metal devices available: 1
+2023-01-12 15:34:45.504 Unity[54324:38710225] 0: Apple M1 Pro (high power)
+2023-01-12 15:34:45.504 Unity[54324:38710225] Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001059 seconds.
+Registered in 0.001023 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 98.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  1.443 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1399ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1444ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1164ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (620ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (636ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005984 seconds.
+Registered in 0.006382 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.409 seconds
+- Completed reload, in  2.759 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2411ms)
+	ReloadAssembly (2761ms)
 		BeginReloadAssembly (264ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2057ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2400ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (437ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1120ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1402ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (904ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (1153ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.005250 seconds.
+Validating Project structure ... 0.006293 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.017884 seconds.
+Upgrading shader files ...0.019188 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,20 +127,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
-2022-12-26 19:13:25.452 Unity[8444:33152222] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002611030 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-12-26 19:13:25.455 Unity[8444:33152222] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002607640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-12 15:34:51.364 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025da7d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-12 15:34:51.368 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025cf020 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.5 MB.
-System memory in use after: 253.8 MB.
+System memory in use before: 254.8 MB.
+System memory in use after: 254.1 MB.
 
 Unloading 277 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 2.768875 ms (FindLiveObjects: 0.166084 ms CreateObjectMapping: 0.086959 ms MarkObjects: 1.990875 ms  DeleteObjects: 0.523959 ms)
+Total: 3.174125 ms (FindLiveObjects: 0.195542 ms CreateObjectMapping: 0.087375 ms MarkObjects: 2.154083 ms  DeleteObjects: 0.736291 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -154,50 +154,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(0e707224e9c3d45bd88441ce3bf7887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0e707224e9c3d45bd88441ce3bf7887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48562712552c36e15a239a39f29fa8bd') in 0.007494 seconds 
+  path: Assets/Materials/BeachBall.mat
+  artifactKey: Guid(5a94abb5927ad4ac98e1538131ad119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BeachBall.mat using Guid(5a94abb5927ad4ac98e1538131ad119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59720a6160a10766170713f1d835c9b') in 1.093100 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Scripts/positionalData.cs
-  artifactKey: Guid(0be7e078e6be2494eae4036270e072a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/positionalData.cs using Guid(0be7e078e6be2494eae4036270e072a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aca041d448968d1f57b7844f730844') in 0.134885 seconds 
+  Time since last request: 0.000296 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(9c5d95ea85c324dcba2b3e5813a4c24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(9c5d95ea85c324dcba2b3e5813a4c24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0e985f94edbe25c2bba4dbc69566c8') in 0.013365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.939607 seconds.
-  path: Assets/Scripts/positionalData.cs
-  artifactKey: Guid(0be7e078e6be2494eae4036270e072a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/positionalData.cs using Guid(0be7e078e6be2494eae4036270e072a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc7d7dc7ca66bcf9e8456f0f521fc77') in 0.003377 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(6af65a3fbf66a4ffdb1052868f5bea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(6af65a3fbf66a4ffdb1052868f5bea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c74a63417ca202a62385bba4fab29a0') in 0.000724 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.072601 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(f97478fd876ff405891ac3679e664170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(f97478fd876ff405891ac3679e664170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274291126857071d0a5be78b880664fa') in 0.002117 seconds 
+  Time since last request: 0.000171 seconds.
+  path: Assets/Materials/beachball 1.jpeg
+  artifactKey: Guid(1e2a146db058a4ba2b0d8c6836192999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/beachball 1.jpeg using Guid(1e2a146db058a4ba2b0d8c6836192999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd058be6d15284260bb7896029342cfcc') in 0.536860 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.526332 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(f97478fd876ff405891ac3679e664170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(f97478fd876ff405891ac3679e664170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947a05dad9b81618db340654b2de953c') in 0.006973 seconds 
+  Time since last request: 0.000311 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(a659b5aad3e524e81a7665c2f93f5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(a659b5aad3e524e81a7665c2f93f5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875393a948708b8721d32fb261302171') in 0.006833 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.952292 seconds.
-  path: Assets/Scripts/Pointer.cs
-  artifactKey: Guid(ed8da67ea4170441cb53334f8e2bb83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pointer.cs using Guid(ed8da67ea4170441cb53334f8e2bb83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0687a400164b604947cea4eb788876c') in 0.008489 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/Horizon.mat
+  artifactKey: Guid(91a21ff8f86d24fafa7b46fc6d6e51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Horizon.mat using Guid(91a21ff8f86d24fafa7b46fc6d6e51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08efd7e49e002c09240cab7f6c89fa6b') in 0.006289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.075398 seconds.
+  path: Assets/Materials/Horizon.mat
+  artifactKey: Guid(91a21ff8f86d24fafa7b46fc6d6e51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Horizon.mat using Guid(91a21ff8f86d24fafa7b46fc6d6e51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a752911f244d93faa080b6ca36c6852') in 0.008503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.972376 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a7381dcff7e15402eae9a3f052c41a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a7381dcff7e15402eae9a3f052c41a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad0bdbbc4b52d2659984348d52e83df') in 0.004086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.608541 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d73c6f9af8f4cc5484f09bab9fc7572') in 0.266658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Pointer.prefab
+  artifactKey: Guid(76289095da7c841ed9c7cbe2d783d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pointer.prefab using Guid(76289095da7c841ed9c7cbe2d783d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c50596cc04897cc06bbd16b74005535') in 0.090294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/StarterBall.prefab
+  artifactKey: Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StarterBall.prefab using Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e3dea1b5b090984d991e032cb7c81b') in 0.009150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.087965 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013352b9956587c8b771e53badb53ef2') in 0.045482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/StarterBall.prefab
+  artifactKey: Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StarterBall.prefab using Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b421c70b4304c174d0c70a0a3f54e29') in 0.008062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.399872 seconds.
+  path: Assets/Scripts/MoveBall.cs
+  artifactKey: Guid(9ecb659a3a5bc4a9c98118d64afb0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveBall.cs using Guid(9ecb659a3a5bc4a9c98118d64afb0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3173341f7e33f0e6f211f83d41a5197') in 0.298803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.162127 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67c1a5da2337ecd00bdb5898b27d695') in 0.024394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/StarterBall.prefab
+  artifactKey: Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StarterBall.prefab using Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7f575d9212accdb83d5a9330115ba5') in 0.007411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.552430 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(09019c53d851b474d8784f1d35ff0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8efd01fd5e22954524faa2f6cee153d') in 0.007216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002005 seconds.
+  path: Assets/Prefabs/StarterBall.prefab
+  artifactKey: Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StarterBall.prefab using Guid(ec784bccd7dee4f619b15e58b4c91335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c223e2e0f407abdd884d517d05a4ab') in 0.006508 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002296 seconds.
+Registered in 0.002294 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-12-26 19:14:46.004 Unity[8444:33152222] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000260e4c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-12 15:42:38.480 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002592fb0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
 Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
   at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
@@ -212,44 +284,44 @@ Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_Copy
   at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
   at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
 
-(Filename: Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
 
-- Completed reload, in  2.719 seconds
+- Completed reload, in  2.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2721ms)
-		BeginReloadAssembly (274ms)
+	ReloadAssembly (2807ms)
+		BeginReloadAssembly (336ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
+			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (2348ms)
-			LoadAssemblies (195ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (2372ms)
+			LoadAssemblies (259ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1256ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1259ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (969ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (975ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.1 MB.
-System memory in use after: 254.3 MB.
+System memory in use before: 267.6 MB.
+System memory in use after: 267.8 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3910.
-Total: 3.344000 ms (FindLiveObjects: 0.200667 ms CreateObjectMapping: 0.088542 ms MarkObjects: 3.002250 ms  DeleteObjects: 0.051083 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3953.
+Total: 3.271833 ms (FindLiveObjects: 0.240708 ms CreateObjectMapping: 0.140375 ms MarkObjects: 2.847209 ms  DeleteObjects: 0.042125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -262,22 +334,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 19.320861 seconds.
-  path: Assets/Scripts/Pointer.cs
-  artifactKey: Guid(ed8da67ea4170441cb53334f8e2bb83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pointer.cs using Guid(ed8da67ea4170441cb53334f8e2bb83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e2fa1a1025cbb6c4a880b1b130c496') in 0.009140 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001941 seconds.
+Registered in 0.002066 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-12-26 19:15:47.575 Unity[8444:33152222] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002675c00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-12 15:42:45.937 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025bb8e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
 Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
   at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
@@ -292,44 +358,118 @@ Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_Copy
   at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
   at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
 
-(Filename: Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
 
-- Completed reload, in  2.568 seconds
+- Completed reload, in  2.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2569ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (2603ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
+			DisableScriptedObjects (30ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2252ms)
-			LoadAssemblies (201ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2302ms)
+			LoadAssemblies (192ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1188ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (919ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.9 MB.
+System memory in use after: 268.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3959.
+Total: 2.895750 ms (FindLiveObjects: 0.162667 ms CreateObjectMapping: 0.076666 ms MarkObjects: 2.628042 ms  DeleteObjects: 0.027458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002102 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:42:59.628 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025b9810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2673ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2352ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (445ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1214ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (197ms)
-				ProcessInitializeOnLoadAttributes (906ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (925ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.5 MB.
-System memory in use after: 254.7 MB.
+System memory in use before: 268.1 MB.
+System memory in use after: 268.3 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3916.
-Total: 3.336917 ms (FindLiveObjects: 0.206875 ms CreateObjectMapping: 0.156541 ms MarkObjects: 2.931042 ms  DeleteObjects: 0.041084 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3965.
+Total: 3.218500 ms (FindLiveObjects: 0.196291 ms CreateObjectMapping: 0.085875 ms MarkObjects: 2.884417 ms  DeleteObjects: 0.050791 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -344,14 +484,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002113 seconds.
+Registered in 0.001789 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/Downloads/PointingExperiment-main-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-12-26 19:22:29.114 Unity[8444:33152222] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000026750a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-12 15:43:33.252 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002594070 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
 Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
   at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
@@ -366,31 +506,105 @@ Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_Copy
   at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
   at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
 
-(Filename: Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
 
-- Completed reload, in  2.816 seconds
+- Completed reload, in  2.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2819ms)
-		BeginReloadAssembly (292ms)
+	ReloadAssembly (2602ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (37ms)
+			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (2427ms)
-			LoadAssemblies (273ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2293ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
+			SetupTypeCache (435ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1273ms)
+			SetupLoadedEditorAssemblies (1192ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (962ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (925ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.3 MB.
+System memory in use after: 268.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3971.
+Total: 4.565667 ms (FindLiveObjects: 0.250875 ms CreateObjectMapping: 0.172500 ms MarkObjects: 4.080875 ms  DeleteObjects: 0.059958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:45:23.232 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002599ab0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2685ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2311ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (869ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -399,11 +613,307 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.7 MB.
-System memory in use after: 254.9 MB.
+System memory in use before: 268.5 MB.
+System memory in use after: 268.7 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3922.
-Total: 3.301875 ms (FindLiveObjects: 0.243708 ms CreateObjectMapping: 0.094833 ms MarkObjects: 2.905375 ms  DeleteObjects: 0.053042 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3977.
+Total: 3.061458 ms (FindLiveObjects: 0.201375 ms CreateObjectMapping: 0.079583 ms MarkObjects: 2.728250 ms  DeleteObjects: 0.050542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:45:36.242 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025a5110 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2643ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2333ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (919ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.7 MB.
+System memory in use after: 268.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3983.
+Total: 3.110292 ms (FindLiveObjects: 0.209208 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.782000 ms  DeleteObjects: 0.032042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:45:54.736 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025a7e20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2839ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (2466ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (965ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.9 MB.
+System memory in use after: 269.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3989.
+Total: 3.185417 ms (FindLiveObjects: 0.185167 ms CreateObjectMapping: 0.078583 ms MarkObjects: 2.886542 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002095 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:46:32.200 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025d9960 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2856ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (2442ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (980ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.1 MB.
+System memory in use after: 269.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 3.304667 ms (FindLiveObjects: 0.200666 ms CreateObjectMapping: 0.103625 ms MarkObjects: 2.949917 ms  DeleteObjects: 0.049417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nateseibold/CompletePointedExperiment/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-01-12 15:46:48.455 Unity[54324:38710225] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025b5a40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Valve.VR.SteamVR_CopyExampleInputFiles:OnReloadScripts ()' : ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Valve.VR.SteamVR.GetSteamVRFolderParentPath (System.Boolean localToAssetsFolder) [0x0000f] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:399 
+  at Valve.VR.SteamVR.GetSteamVRResourcesFolderPath (System.Boolean localToAssetsFolder) [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs:436 
+  at Valve.VR.SteamVR_Settings.LoadInstance () [0x00033] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:110 
+  at Valve.VR.SteamVR_Settings.get_instance () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR_Settings.cs:18 
+  at Valve.VR.SteamVR_Input.CheckOldLocation () [0x00014] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/SteamVR_Input.cs:1312 
+  at Valve.VR.SteamVR_CopyExampleInputFiles.OnReloadScripts () [0x00000] in /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Input/Editor/SteamVR_CopyExampleInputFiles.cs:20 
+
+(Filename: /Users/nateseibold/Downloads/PointingExperiment-main-2/Assets/SteamVR/Scripts/SteamVR.cs Line: 399)
+
+- Completed reload, in  2.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2589ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2270ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (428ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (217ms)
+				ProcessInitializeOnLoadAttributes (936ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.3 MB.
+System memory in use after: 269.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4001.
+Total: 3.424833 ms (FindLiveObjects: 0.175083 ms CreateObjectMapping: 0.086125 ms MarkObjects: 3.120792 ms  DeleteObjects: 0.041584 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using Valve.VR;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    public Camera cameraInstructions;
     public Camera cameraStart;
     public Camera cameraGame;
     public Camera cameraBlack;
@@ -14,6 +17,7 @@ public class GameController : MonoBehaviour
 
     public GameObject input;
     public GameObject canvas;
+    public GameObject instructionCanvas;
     public GameObject endCanvas;
 
     public GameObject starterBall;
@@ -23,8 +27,15 @@ public class GameController : MonoBehaviour
     public GameObject endingPoint;
     public GameObject pointer;
 
+    public SteamVR_Action_Boolean clickAction;
+    public SteamVR_Input_Sources targetSource;
+
+    public TMP_Text trialText;
+
     private float groundY = 0.35F;
     private int totalExperiments = 10;
+
+    private int numInstructions = 0;
 
     public float maxHalfDistance = 5;
 
@@ -38,10 +49,12 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cameraStart.enabled = true;
+        cameraInstructions.enabled = true;
+        cameraStart.enabled = false;
         cameraGame.enabled = false;
         cameraBlack.enabled = false;
         cameraEnd.enabled = false;
+        canvas.SetActive(false);
         endCanvas.SetActive(false);
 
         pointer.SetActive(false);
@@ -52,13 +65,28 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if((clickAction.GetStateDown(targetSource) || Input.GetKeyDown("space")) && numInstructions == 0)
+        {
+            instructionCanvas.GetComponent<TMP_Text>().text = "changed";
+            numInstructions++;
+        }
+
+        else if((clickAction.GetStateDown(targetSource) || Input.GetKeyDown("space")) && numInstructions == 1)
+        {
+            cameraInstructions.enabled = false;
+            cameraStart.enabled = true;
+            canvas.SetActive(true);
+        }
+
+
         //Sets the new positions of the starting point and ending point, if the trial can be started
         if(startBall && experimentNumber <= totalExperiments)
         {
             experimentNumber++;
             startBall = false;
             pointer.SetActive(false);
-            randomTrial();
+            switchCamera();
+            //randomTrial();
         }
 
         else if(experimentNumber > totalExperiments)
@@ -79,6 +107,7 @@ public class GameController : MonoBehaviour
         //travelTime = UnityEngine.Random.Range(0.5f, 5.0f);
         //ball.GetComponent<MoveBallArc>().journeyTime = travelTime;
         //ball.GetComponent<MoveBallArc>().canStart = true;
+        ball.GetComponent<MoveBall>().canStart = true;
         ballInstance = (GameObject)Instantiate(ball, startingPoint.transform.position, ball.transform.rotation);
     }
 
@@ -92,10 +121,12 @@ public class GameController : MonoBehaviour
     public void switchCamera()
     {
         cameraStart.enabled = false;
-        cameraGame.enabled = true;
-        cameraBlack.enabled = false;
+        cameraGame.enabled = false;
+        cameraBlack.enabled = true;
+        trialText.text = "newTrial";
         canvas.SetActive(false);
-        StartCoroutine(stallBall());
+        // StartCoroutine(stallBall());
+        StartCoroutine(fadeBackTrial());
     }
 
     //Stalls the Ball so that it appears on the screen
@@ -134,6 +165,15 @@ public class GameController : MonoBehaviour
         cameraGame.enabled = true;
         cameraBlack.enabled = false;
         pointer.SetActive(true);
+    }
+
+    private IEnumerator fadeBackTrial()
+    {
+        yield return new WaitForSeconds(1);
+        StartCoroutine(stallBall());
+        cameraGame.enabled = true;
+        cameraBlack.enabled = false;
+        randomTrial();
     }
 }
  
