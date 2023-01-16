@@ -31,6 +31,7 @@ public class Pointer : MonoBehaviour
         UpdateLine();
     }
 
+    //Moves line with the direction of the controller
     private void UpdateLine()
     {
         float targetLength = defaultLength;
@@ -48,18 +49,16 @@ public class Pointer : MonoBehaviour
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, endPosition);
 
-        if(clickAction.GetStateDown(targetSource) && numClicks == 0)
+        if(clickAction.GetState(targetSource) && numClicks == 0)
         {
             startClick = endPosition;
             numClicks++;
-            //print subject number, trial number, "start point",math.distance(hit.point.x,hit.point.z), actual distance,  hit.point, actual start point, Time.time
         }
 
-        if(clickAction.GetStateDown(targetSource) && numClicks == 1)
+        if(clickAction.GetStateUp(targetSource) && numClicks == 1)
         {
             endClick = endPosition;
             numClicks = 0;
-            //print subject number, trial number, "end point", math.distance(hit.point.x,hit.point.z), actual distance, hit.point, actual end point, Time.time
             StartCoroutine(newTrial());
         }
     }
@@ -73,6 +72,7 @@ public class Pointer : MonoBehaviour
         return hit;
     }
 
+    //Starts a new trial once the player has completed the current one
     private IEnumerator newTrial()
     {
         GameObject.Find("Camera").GetComponent<positionalData>().PrintLine();

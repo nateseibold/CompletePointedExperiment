@@ -7,42 +7,51 @@ using UnityEngine.Events;
 using Valve.VR;
 using TMPro;
 
+//Contains the code to control the Pointing Experiment
 public class GameController : MonoBehaviour
 {
+    //Camera Variables
     public Camera cameraInstructions;
     public Camera cameraStart;
     public Camera cameraGame;
     public Camera cameraBlack;
     public Camera cameraEnd;
 
+    //Canvas Variables
     public GameObject input;
     public GameObject canvas;
     public GameObject instructionCanvas;
     public GameObject endCanvas;
+    public GameObject trialCanvas;
 
+    //Prefab Variables
     public GameObject starterBall;
     public GameObject ball;
     private GameObject ballInstance;
     public GameObject startingPoint;
     public GameObject endingPoint;
     public GameObject pointer;
+    public GameObject hourglass;
 
+    //VR Action Variables
     public SteamVR_Action_Boolean clickAction;
     public SteamVR_Input_Sources targetSource;
 
+    //Text Variable
     public TMP_Text trialText;
 
+    //List Variable
+    private List<char> experimentType;
+
+    //Variables to be used in Calculations
     private float groundY = 0.35F;
     private int totalExperiments = 10;
-
     private int numInstructions = 0;
-
     public float maxHalfDistance = 5;
-
     public bool startBall = false;
-
     public int experimentNumber = 0;
 
+    //Variables to be Set
     public string participantID;
     public float travelTime;
 
@@ -54,30 +63,38 @@ public class GameController : MonoBehaviour
         cameraGame.enabled = false;
         cameraBlack.enabled = false;
         cameraEnd.enabled = false;
+
         canvas.SetActive(false);
         endCanvas.SetActive(false);
+        trialCanvas.SetActive(false);
 
         pointer.SetActive(false);
 
         InputField inputField = input.GetComponent<InputField>();
+
+        experimentType = new List<char>(totalExperiments);
+        createExperimentPattern();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Switches to instruction slide
         if((clickAction.GetStateDown(targetSource) || Input.GetKeyDown("space")) && numInstructions == 0)
         {
             instructionCanvas.GetComponent<TMP_Text>().text = "changed";
             numInstructions++;
         }
 
+        //Switches to id input info
         else if((clickAction.GetStateDown(targetSource) || Input.GetKeyDown("space")) && numInstructions == 1)
         {
             cameraInstructions.enabled = false;
+            instructionCanvas.SetActive(false);
             cameraStart.enabled = true;
             canvas.SetActive(true);
+            numInstructions++;
         }
-
 
         //Sets the new positions of the starting point and ending point, if the trial can be started
         if(startBall && experimentNumber <= totalExperiments)
@@ -86,9 +103,9 @@ public class GameController : MonoBehaviour
             startBall = false;
             pointer.SetActive(false);
             switchCamera();
-            //randomTrial();
         }
 
+        //Displays the end of experiment screen
         else if(experimentNumber > totalExperiments)
         {
             endCanvas.SetActive(true);
@@ -97,16 +114,55 @@ public class GameController : MonoBehaviour
         }
     }
 
+    //Creates the randomized experiment pattern of equal "Line" and "Time"
+    private void createExperimentPattern()
+    {
+        int numEach = totalExperiments / 2;
+
+        //Arbitrarily fills the list
+        for(int i = 0; i < totalExperiments; i++)
+        {
+            experimentType.Add('N');
+        }
+
+        //Randomly sets half of the total experiments to Line
+        for(int i = 0; i < numEach; i++)
+        {
+            int random = UnityEngine.Random.Range(0, 9);
+            while(experimentType[random] == 'L')
+            {
+                random = UnityEngine.Random.Range(0, 9);
+            }
+
+            experimentType[random] = 'L';
+        }
+
+        //Sets the remaining half to Time
+        for(int i = 0; i < experimentType.Count; i++)
+        {
+            if(experimentType[i] != 'L')
+            {
+                experimentType[i] = 'T';
+            }
+        }
+    }
+
     //Moves the ball and sets the randomized time of the journey
     private void randomTrial()
     {
-        //ball.GetComponent<MoveBallArc>().sunrise = startingPoint.transform;
-        //ball.GetComponent<MoveBallArc>().sunset = endingPoint.transform;
+        //Arc Code
+        /*
+        ball.GetComponent<MoveBallArc>().sunrise = startingPoint.transform;
+        ball.GetComponent<MoveBallArc>().sunset = endingPoint.transform;
+        travelTime = UnityEngine.Random.Range(0.5f, 5.0f);
+        ball.GetComponent<MoveBallArc>().journeyTime = travelTime;
+        ball.GetComponent<MoveBallArc>().canStart = true;
+        */
+
+        //Line Code
         ball.GetComponent<MoveBall>().startMarker = startingPoint.transform;
         ball.GetComponent<MoveBall>().endMarker = endingPoint.transform;
-        //travelTime = UnityEngine.Random.Range(0.5f, 5.0f);
-        //ball.GetComponent<MoveBallArc>().journeyTime = travelTime;
-        //ball.GetComponent<MoveBallArc>().canStart = true;
+        ball.GetComponent<MoveBall>().time = UnityEngine.Random.Range(0.5f, 5.0f);
         ball.GetComponent<MoveBall>().canStart = true;
         ballInstance = (GameObject)Instantiate(ball, startingPoint.transform.position, ball.transform.rotation);
     }
@@ -115,6 +171,7 @@ public class GameController : MonoBehaviour
     public void enterID(string id)
     {
        participantID = id;
+       Debug.Log(id);
     }
 
     //Switches the Camera from UI to the VR camera to start the experiment
@@ -123,23 +180,36 @@ public class GameController : MonoBehaviour
         cameraStart.enabled = false;
         cameraGame.enabled = false;
         cameraBlack.enabled = true;
-        trialText.text = "newTrial";
+
+        hourglass.SetActive(false);
+
+        //Sets text to trial type
+        if(experimentType[experimentNumber] == 'L')
+        {
+            trialText.text = "Line";
+        }
+        else if(experimentType[experimentNumber] == 'T')
+        {
+            trialText.text = "Time";
+        }
+        
         canvas.SetActive(false);
-        // StartCoroutine(stallBall());
+        trialCanvas.SetActive(true);
         StartCoroutine(fadeBackTrial());
     }
 
     //Stalls the Ball so that it appears on the screen
     private IEnumerator stallBall()
     {
+        //Randomly assigns start and end point
         float randomZ = UnityEngine.Random.Range(3.0F, 10.0F);
         startingPoint.transform.position = new Vector3(UnityEngine.Random.Range(maxHalfDistance * -1, 0.0F), groundY, randomZ);
         endingPoint.transform.position = new Vector3(UnityEngine.Random.Range(0.5F, maxHalfDistance), groundY, randomZ);
         GameObject ball = (GameObject) Instantiate(starterBall, startingPoint.transform.position, starterBall.transform.rotation);
 
         yield return new WaitForSeconds(1f);
+        randomTrial();
         Destroy(ball);
-        startBall = true;
     }
 
     //Called when the ball lands at the ending spot
@@ -165,15 +235,30 @@ public class GameController : MonoBehaviour
         cameraGame.enabled = true;
         cameraBlack.enabled = false;
         pointer.SetActive(true);
+        TrialType();
     }
 
+    //Sets up the player input phase of the experiment based on what type of trial it is
+    private void TrialType()
+    {
+        if(experimentType[experimentNumber] == 'L')
+        {
+
+        }
+        
+        else
+        {
+            hourglass.SetActive(true);
+        }
+    }
+
+    //Used to show which type of trial is being tested
     private IEnumerator fadeBackTrial()
     {
         yield return new WaitForSeconds(1);
         StartCoroutine(stallBall());
         cameraGame.enabled = true;
         cameraBlack.enabled = false;
-        randomTrial();
     }
 }
  

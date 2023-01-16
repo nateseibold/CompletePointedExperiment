@@ -54,10 +54,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecb659a3a5bc4a9c98118d64afb0e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMarker: {fileID: 0}
-  endMarker: {fileID: 0}
+  startMarker: {fileID: 6018083028212335456, guid: f40e5e6a36c854e4598d23069ca0125d, type: 3}
+  endMarker: {fileID: 1486993761384076895, guid: 2a891ad31c13747b981954c45454f660, type: 3}
   ball: {fileID: 8683485161281025603}
-  speed: 1
+  time: 1.2839415
+  canStart: 1
 --- !u!23 &8683485161281025605
 MeshRenderer:
   m_ObjectHideFlags: 0

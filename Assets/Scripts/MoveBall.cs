@@ -13,8 +13,10 @@ public class MoveBall : MonoBehaviour
 
     public GameObject ball;
 
+    public float time;
+
     // Movement speed in units per second.
-    public float speed = 1.0F;
+    private float speed;
 
     // Time when the movement started.
     private float startTime;
@@ -31,6 +33,8 @@ public class MoveBall : MonoBehaviour
 
         // Calculate the journey length.
         journeyLength = Vector3.Distance(startMarker.position, endMarker.position);
+
+        speed = journeyLength / time;
     }
 
     // Move to the target end position.
