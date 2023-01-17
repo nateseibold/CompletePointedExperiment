@@ -59,13 +59,21 @@ public class Pointer : MonoBehaviour
             if(clickAction.GetState(targetSource) && numClicks == 0)
             {
                 startClick = endPosition;
-                numClicks++;
+                Instantiate(dot, endPosition, dot.transform.rotation);
+                //numClicks++;
             }
 
             if(clickAction.GetStateUp(targetSource) && numClicks == 1)
             {
                 endClick = endPosition;
                 numClicks = 0;
+                
+                GameObject[] allObjects = GameObject.FindGameObjectsWithTag("dot");
+                foreach(GameObject obj in allObjects)
+                {
+                    Destroy(obj);
+                }
+                
                 StartCoroutine(newTrial());
             }
         }

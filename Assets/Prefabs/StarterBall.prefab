@@ -5,7 +5,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8542214392320658995, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
@@ -16,13 +15,29 @@ PrefabInstance:
       propertyPath: sunrise
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8634688045157740959, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
+      propertyPath: time
+      value: 1.2839415
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634688045157740959, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
+      propertyPath: endMarker
+      value: 
+      objectReference: {fileID: 1486993761384076895, guid: 2a891ad31c13747b981954c45454f660, type: 3}
+    - target: {fileID: 8634688045157740959, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
+      propertyPath: startMarker
+      value: 
+      objectReference: {fileID: 6018083028212335456, guid: f40e5e6a36c854e4598d23069ca0125d, type: 3}
     - target: {fileID: 8683485161281025603, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
       propertyPath: m_Name
-      value: Ball Variant
+      value: StarterBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683485161281025603, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
+      propertyPath: m_TagString
+      value: dot
       objectReference: {fileID: 0}
     - target: {fileID: 8683485161281025607, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8683485161281025607, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,5 +81,4 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8542214392320658995, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 09019c53d851b474d8784f1d35ff0456, type: 3}
