@@ -243,11 +243,12 @@ public class GameController : MonoBehaviour
     {
         if(experimentType[experimentNumber] == 'L')
         {
-
+            pointer.GetComponent<Pointer>().type = 'L';
         }
         
         else
         {
+            pointer.GetComponent<Pointer>().type = 'T';
             hourglass.SetActive(true);
         }
     }

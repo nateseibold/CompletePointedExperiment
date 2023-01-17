@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using System.Diagnostics;
 
 public class Pointer : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class Pointer : MonoBehaviour
     public Vector3 endClick;
 
     private int numClicks = 0;
+
+    public char type = 'N';
+
+    private Stopwatch stopwatch = new Stopwatch();
 
     // Start is called before the first frame update
     private void Awake()
@@ -49,18 +54,39 @@ public class Pointer : MonoBehaviour
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, endPosition);
 
-        if(clickAction.GetState(targetSource) && numClicks == 0)
+        if(type == 'L')
         {
-            startClick = endPosition;
-            numClicks++;
+            if(clickAction.GetState(targetSource) && numClicks == 0)
+            {
+                startClick = endPosition;
+                numClicks++;
+            }
+
+            if(clickAction.GetStateUp(targetSource) && numClicks == 1)
+            {
+                endClick = endPosition;
+                numClicks = 0;
+                StartCoroutine(newTrial());
+            }
         }
 
-        if(clickAction.GetStateUp(targetSource) && numClicks == 1)
+        else if(type == 'T')
         {
-            endClick = endPosition;
-            numClicks = 0;
-            StartCoroutine(newTrial());
+            if(clickAction.GetStateDown(targetSource) && numClicks == 0)
+            {
+                stopwatch.Start();
+                numClicks++;
+            }
+
+            if(clickAction.GetStateUp(targetSource) && numClicks == 1)
+            {
+                stopwatch.Stop();
+                long duration = stopwatch.Elapsed.Seconds;
+                numClicks = 0;
+                StartCoroutine(newTrial());
+            }
         }
+        
     }
     
     private RaycastHit CreateRaycast(float length)
