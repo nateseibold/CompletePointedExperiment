@@ -22,6 +22,8 @@ public class Pointer : MonoBehaviour
 
     public char type = 'N';
 
+    public long duration;
+
     private Stopwatch stopwatch = new Stopwatch();
 
     // Start is called before the first frame update
@@ -73,7 +75,7 @@ public class Pointer : MonoBehaviour
                 {
                     Destroy(obj);
                 }
-                
+
                 StartCoroutine(newTrial());
             }
         }
@@ -89,7 +91,7 @@ public class Pointer : MonoBehaviour
             if(clickAction.GetStateUp(targetSource) && numClicks == 1)
             {
                 stopwatch.Stop();
-                long duration = stopwatch.Elapsed.Seconds;
+                duration = stopwatch.Elapsed.Seconds;
                 numClicks = 0;
                 StartCoroutine(newTrial());
             }
@@ -109,7 +111,7 @@ public class Pointer : MonoBehaviour
     //Starts a new trial once the player has completed the current one
     private IEnumerator newTrial()
     {
-        GameObject.Find("Camera").GetComponent<positionalData>().PrintLine();
+        GameObject.Find("Camera").GetComponent<positionalData>().PrintLine(type);
         yield return new WaitForSeconds(1.5f);
         GameObject.Find("Camera").GetComponent<GameController>().startBall = true;
     }
